@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+    color: seashell;
+    opacity: 0.9;
+}
+
+body {
+    background-color:BLACK;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 69PX;
+    min-width: 100%;
+    border-bottom: 1PX SOLID seashell;
+}    
+
+
+header img {
+    height: 50px;
+    padding: 0 10px;
+
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+a{
+    margin: 0 10px;
+}
+
+.mission {
+    height: 700px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+    display:flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.our-mission {
+    background-color: #222;
+    height: 69px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.month {
+    margin:0 auto;
+    height: 700px;
+    max-width: 1000px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.month-heading {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.month-chart {
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:10px;
+}
+
+.food {
+    height: 200px;
+    width: 300px;
+}
+
+.location {
+    margin: 0 auto;
+    height: 500px;
+    max-width: 1200px;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.location h2 {
+    text-align: center;
+}
+
+.locations {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.address {
+    background-color: #222;
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+footer {
+    height: 250px;
+    max-width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around ;
+}
+
+.copyright {
+    text-align: left;
+    padding: 20px;
+}
+
